@@ -1,0 +1,31 @@
+:root {
+  /* Asosiy ranglar */
+  --bg: #101018;
+  --card: #191927;
+  --primary: #7657f6;
+  --primary-hover: #6244e8;
+  --text: #ffffff;
+  --muted: #a1a1aa;
+
+  /* Qo'shimcha (asosiy ranglardan olingan) */
+  --line: rgba(255, 255, 255, 0.07);
+  --line-strong: rgba(255, 255, 255, 0.14);
+  --primary-soft: rgba(118, 87, 246, 0.16);
+  --primary-text: #c9bdff;
+  --bubble: #25253a;
+  --danger: #f4727d;
+  --danger-soft: rgba(244, 114, 125, 0.12);
+  --success: #5fd6a0;
+  --success-soft: rgba(95, 214, 160, 0.12);
+
+  /* Shriftlar */
+  --font-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Instrument Sans", "Segoe UI", system-ui, sans-serif;
+
+  /* O'lchamlar */
+  --container: 1120px;
+  --nav-height: 68px;
+  --radius-s: 10px;
+  --radius-m: 14px;
+  --radius-l: 20px;
+}

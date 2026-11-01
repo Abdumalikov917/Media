@@ -1,0 +1,136 @@
+@media (max-width: 960px) {
+  .category-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .steps {
+    grid-template-columns: 1fr;
+  }
+
+  .detail {
+    grid-template-columns: 1fr;
+  }
+
+  .detail__aside {
+    position: static;
+  }
+
+  .dashboard {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .dashboard__nav {
+    position: static;
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+  }
+
+  .searchbar {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 200px) auto;
+  }
+}
+
+@media (max-width: 760px) {
+  .navbar__toggle {
+    display: inline-flex;
+  }
+
+  .navbar__menu {
+    display: none;
+    position: absolute;
+    top: var(--nav-height);
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 4px;
+    margin: 0;
+    padding: 16px 20px 20px;
+    background: var(--bg);
+    border-bottom: 1px solid var(--line);
+  }
+
+  .navbar__menu.is-open {
+    display: flex;
+  }
+
+  .navbar__actions {
+    flex-direction: column;
+    align-items: stretch;
+    margin: 8px 0 0;
+  }
+
+  .hero {
+    padding: 48px 0 32px;
+  }
+
+  .searchbar {
+    grid-template-columns: 1fr;
+  }
+
+  .searchbar__field {
+    border: 1px solid var(--line);
+  }
+
+  .cta-band {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+  }
+
+  .section__head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .ad-row {
+    grid-template-columns: 1fr;
+  }
+
+  .chat {
+    grid-template-columns: 1fr;
+  }
+
+  .chat.has-active .chat__list,
+  .chat:not(.has-active) .chat__pane {
+    display: none;
+  }
+
+  .chat__list {
+    border-right: 0;
+  }
+
+  .chat__back {
+    display: inline-flex;
+  }
+
+  .bubble {
+    max-width: 88%;
+  }
+}
+
+@media (max-width: 520px) {
+  .category-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats {
+    grid-template-columns: 1fr;
+  }
+
+  .ad-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .choice {
+    padding: 22px;
+  }
+}
